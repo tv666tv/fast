@@ -1,0 +1,363 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 13.33333333vw;
+  background-color: #141519;
+}
+@media (min-width: 560px) {
+  html {
+    font-size: 54px;
+  }
+}
+body{
+  height: 100%;
+  overflow: auto;
+}
+#app{
+  height: 100%;
+  padding-bottom: 0.2rem;
+}
+.fixed{
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  background-color: #141519;
+  overflow: hidden;
+  padding-bottom: 0.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.fixed-bottom{
+  bottom: 0;
+  position: fixed !important;
+  z-index: 6;
+  left: 50%;
+  transform: translateX(-50%)
+}
+.header{
+  height: 1.20rem;
+  position: relative;
+  overflow: hidden;
+}
+.header-img {
+  height: 1.23rem;
+}
+.header-img-logo {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  left: .25rem;
+  top: .09rem;
+  border-radius: .2rem;
+  display: none;
+}
+.nav {
+  height: 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.nav a {
+  font-size: 0.36rem;
+  color: #9c9c9c;
+}
+.nav a.active {
+  color: #ff46a4;
+}
+
+.center {
+  width: 7rem;
+  margin: 0 auto;
+}
+.kefu{
+  position: fixed;
+  width: 2.2rem;
+  z-index: 11;
+  right: 0.2rem;
+  top: 0.1rem;
+  display: block;
+}
+.kefu-server{
+  position: fixed;
+  width: 1.2rem;
+  z-index: 11;
+  right: 0.2rem;
+  top: 3.3rem;
+  display: block;
+}
+.kefu2 {
+  width: 2.2rem;
+  top: auto;
+  bottom: 0;
+  z-index: 6;
+  position: fixed;
+  right: 0.2rem;
+}
+.contact {
+  height: 0.88rem;
+  background: url(../imgs/contact-bg.png.123) no-repeat;
+  background-size: 7rem 0.88rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contact .bz {
+  width: 100%;
+  /* width: 6.88rem; */
+  /* height: 0.7rem; */
+  display: block;
+}
+.contact .txt-bg {
+  min-width: 1.55rem;
+  height: 0.3rem;
+  background-color: #a92db1;
+  font-size: 0.26rem;
+  color: #fff;
+  line-height: 0.3rem;
+  border-radius: 0.04rem;
+  padding: 0.02rem 0.04rem;
+  position: absolute;
+  left: 5.28rem;
+  top: 0.46rem;
+}
+.contact .download{
+  position: absolute;
+  height: 100%;
+  width: 4rem;
+  left: 0;
+}
+.contact2{
+  font-size: 0.48rem;
+  text-align: center;
+  color: #b72fb0;
+}
+
+.banner {
+  height: 3.8rem;
+  margin-top: 3.4rem !important;
+  overflow: hidden;
+}
+.banner-swiper-container {
+  height: 3.8rem;
+  overflow: hidden;
+  position: relative;
+  --swiper-theme-color: #cd33ae;
+}
+.banner .swiper-slide img {
+  width: 7.02rem;
+  height: 3.8rem;
+}
+
+.intro {
+  margin-top: 0.26rem;
+  height: 1.6rem;
+}
+.intro img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.tcpy {
+  margin-top: 0.2rem;
+  height: 1.8rem;
+}
+.tcpy img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.marquee {
+  margin-top: 0.2rem;
+  height: 3.2rem;
+  background: url(../imgs/marquee-bg.png.123) no-repeat;
+  background-size: contain;
+  overflow: hidden;
+}
+.marquee-swiper-container {
+  width: 6.72rem;
+  height: 2.4rem;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.marquee .swiper-slide img {
+  width: 1.6rem;
+  height: 2.4rem;
+}
+
+.marquee .swiper-wrapper {
+  -webkit-transition-timing-function: linear; /*之前是ease-out*/
+  -o-transition-timing-function: linear;
+  transition-timing-function: linear;
+  margin: 0 auto;
+}
+
+.comment{
+  margin-top: 0.2rem;
+  height: 2.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+}
+.comment .item{
+  background-color: #242528;
+  border-top-left-radius: 0.06rem;
+  width: 3.4rem;
+  height: 2.2rem;
+  position: relative;
+  overflow: hidden;
+}
+.comment .bage{
+  width: 1.45rem;
+  height: 0.37rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.comment .lb-box{
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+.comment .lb{
+  width: 3.26rem;
+  position: relative;
+  left: 0.10rem;
+  top: 0.440rem;
+  display: block;
+  -webkit-animation: move 30s infinite linear;
+          animation: move 30s infinite linear;
+}
+.comment .lb1{
+  height: 15rem;
+}
+.comment .lb2{
+  height: 29.96rem;
+}
+
+@-webkit-keyframes move{
+  from{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to{
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+
+@keyframes move{
+  from{
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  to{
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+}
+
+.ypbz{
+  margin-top: 0.2rem;
+  height: 3.2rem;
+}
+.ypbz img{
+  width: 100%;
+}
+
+.ptys{
+  margin-top: 0.2rem;
+  background-color: #242528;
+  padding:0.20rem 0.14rem;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 0.08rem;
+
+}
+.ptys .title{
+  width: 1.94rem;
+  height: 0.46rem;
+  margin: 0 auto;
+  display: block;
+} 
+
+.ptys .content .em{
+  font-size: 0.3rem;
+  font-weight: bold;
+  color: #ce33af;
+  line-height: 0.46rem;
+  margin-top: 0.08rem;
+}
+.ptys .content .info{
+  font-size: 0.26rem;
+  font-weight: bold;
+  color: #9c9c9c;
+  line-height: 0.36rem;
+}
+
+#input{
+  position: absolute;
+  left: -600px;
+}
+
+.container-xuemei{
+  width: 100%;
+  margin-top: 0.2rem;
+  display: none;
+}
+.container-buzhou{
+  display: none;
+}
+
+.container-xuemei ul{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.container-xuemei ul li{
+  width: 48%;
+  margin-bottom: 0.1rem;
+}
+.container-xuemei ul li img{
+  width: 100%;
+  display: block;
+}
