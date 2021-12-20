@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+      name="viewport"
+    />
+    <title></title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./data.js"></script>
+
+   <!-- 统计代码 -->
+    <div style="display: none;">
+      <script src="https://v1.cnzz.com/z_stat.php?id=1280536585&web_id=1280536585"></script>
+    </div>
+
+  </head>
+    <body>
+    <div id="app" class="app_fixed"></div>
+  </body>
+  <script>
+    let html = `
+      <textarea id="input" class="qq"></textarea>
+        <img class="kefu download-gif download-gif1" onclick="wakeQQ()" src="${cdndomain}/imgs/download-01.gif" alt="" />
+        <img class="kefu-server" src="${cdndomain}/imgs/kefu.png.123" alt="" />
+    
+        <div class="fixed">
+          <div class="fixed-box">
+            <!-- top -->
+            <section class="header">
+              <img class="header-img" src="${cdndomain}/imgs/top.jpg.123" alt="" srcset="" />
+            </section>
+      
+            <!-- nav -->
+            <nav class="nav center menu">
+              <a class="active" href="javascript:;" data-id="index">首页</a>
+              <a href="javascript:;" data-id="xuemei">&#x5B66;&#x59B9;&#x767D;&#x9886;</a>
+              <a href="javascript:;" data-id="index">&#x514D;&#x8D39;&#x7A7A;&#x964D;</a>
+              <a href="javascript:;" data-id="buzhou">&#x7EA6;&#x70AE;&#x6B65;&#x9AA4;</a>
+            </nav>
+
+            <section class="contact contact_middle">
+              <div class="download" href="javascript:;"></div>
+              <img class="bz" src="${cdndomain}/imgs/ypstep.gif" alt="" srcset="" />
+              <div class="txt-bg qq qq1"></div>
+            </section>
+
+            <!-- banner -->
+            <section class="banner center" onclick="wakeQQ()">
+              <div class="banner-swiper-container banner-swiper-container2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="${cdndomain}/imgs/banner1.png.123" alt="" srcset="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="${cdndomain}/imgs/banner2.png.123" alt="" srcset="" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="${cdndomain}/imgs/banner3.png.123" alt="" srcset="" />
+                  </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination2"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+
+        <div class="fixed-bottom">
+          <img class="kefu download-gif" onclick="wakeQQ()" src="${cdndomain}/imgs/download.gif" alt="" />
+        </div>
+        
+        
+
+        <div class="container tabs" id="index" onclick="wakeQQ()">
+          <img class="tljr" src="${cdndomain}/imgs/tljr-title.png.123" alt="" srcset="" />
+          <section class="marquee center" onclick="wakeQQ()">
+            <div class="marquee-swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/1.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/2.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/3.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/4.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/5.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/6.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/7.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/8.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/9.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/10.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/11.jpg.123" alt="" srcset="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="${cdndomain}/imgs/girls/12.jpg.123" alt="" srcset="" />
+                </div>
+              </div>
+              <!-- 如果需要分页器 -->
+              <div class="swiper-pagination2"></div>
+            </div>
+          </section>
+
+
+          <section class="tcpy center">
+            <img src="${cdndomain}/imgs/tcpy.png.123" alt="" srcset="" />
+          </section>
+    
+          
+          <img class="tljr" src="${cdndomain}/imgs/peidui-title.png.123" alt="" srcset="" />
+          <div class="lb-box">
+            <img class="lb lb1 sspd" src="${cdndomain}/imgs/in_service.png.123" alt="" />
+          </div>
+
+          <img class="tljr" src="${cdndomain}/imgs/xinde.png.123" alt="" srcset="" />
+          <div class="lb-box lb-box lb-box2">
+            <img class="lb lb1 comment_img" src="${cdndomain}/imgs/comment.png.123" alt="" />
+          </div>
+    
+          <section class="ypbz" onclick="wakeQQ()">
+            <img src="${cdndomain}/imgs/ypbz.png.123" alt="" />
+          </section>
+    
+          <section class="ptys" onclick="wakeQQ()">
+            <img class="tljr ptys-img" src="${cdndomain}/imgs/ptys-title.png.123" alt="" srcset="" />
+            <div class="content">
+              <h3 class="em">&#x3010;&#x5B89;&#x5168;&#x95EE;&#x9898;&#x3011;</h3>
+              <p class="info">
+                &#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x0020;&#x672c;&#x4f1a;&#x6240;&#x662f;&#x4e00;&#x5bb6;&#x6c47;&#x805a;&#x5a31;&#x4e50;&#x4f11;&#x95f2;&#x4e00;&#x4f53;&#x7684;&#x4e2d;&#x9ad8;&#x7aef;&#x79c1;&#x4eba;&#x4f1a;&#x6240;&#xff0c;&#x6211;&#x4eec;&#x91c7;&#x7528;&#x4e86;&#x7aef;&#x5230;&#x7aef;&#x52a0;&#x5bc6;&#x6280;&#x672f;&#xff0c;&#x0020;&#x53ea;&#x6709;&#x901a;&#x8bdd;&#x53cc;&#x65b9;&#x77e5;&#x9053;&#x901a;&#x8bdd;&#x3001;&#x804a;&#x5929;&#x5bf9;&#x8bdd;&#x5185;&#x5bb9;&#xff0c;&#x60a8;&#x5728;&#x4f1a;&#x6240;&#x7684;&#x7ea6;&#x70ae;&#x5bf9;&#x8c61;&#x90fd;&#x662f;&#x6709;&#x4e2a;&#x4eba;&#x9700;&#x6c42;&#x4e14;&#x81ea;&#x613f;&#x52a0;&#x5165;&#x7684;&#x826f;&#x5bb6;&#x5973;&#x5b69;&#xff0c;&#x4e25;&#x7981;&#x4efb;&#x4f55;&#x4ee5;&#x91d1;&#x94b1;&#x4ea4;&#x6613;&#x7684;&#x5f62;&#x5f0f;&#x5728;&#x672c;&#x4f1a;&#x6240;&#x7ea6;&#x70ae;&#xff0c;&#x56e0;&#x6b64;&#x60a8;&#x4e0d;&#x5fc5;&#x62c5;&#x5fc3;&#x4f1a;&#x6709;&#x4ec0;&#x4e48;&#x6b3a;&#x8bc8;&#x884c;&#x4e3a;&#x3002;&#xa;&#x672c;&#x4f1a;&#x6240;&#x79c9;&#x627f;&#x201c;&#x8d35;&#x5bbe;&#x81f3;&#x4e0a;&#x0020;&#x670d;&#x52a1;&#x7b2c;&#x4e00;&#x201d;&#x7684;&#x7ecf;&#x8425;&#x7406;&#x5ff5;&#xff0c;&#x8bda;&#x631a;&#x6b22;&#x8fce;&#x60a8;&#x7684;&#x8385;&#x4e34;&#x52a0;&#x5165;&#x3002;
+
+              </p>
+              <h3 class="em">&#x3010;&#x914D;&#x5BF9;&#x670D;&#x52A1;&#x3011;</h3>
+              <p class="info">
+                &#x544A;&#x77E5;&#x63A5;&#x5F85;&#x5C0F;&#x59B9;&#x60A8;&#x6240;&#x5728;&#x7684;&#x5730;&#x533A;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x53EF;&#x4EE5;&#x7ED9;&#x60A8;&#x5B89;&#x6392;&#x914D;&#x5BF9;&#x8BE5;&#x533A;&#x57DF;&#x5728;&#x7EBF;&#x7684;&#x7EA6;&#x70AE;&#x5BF9;&#x8C61;&#x3002;&#x8BF7;&#x60A8;&#x52A1;&#x5FC5;&#x544A;&#x77E5;&#x6B63;&#x786E;&#x5730;&#x533A;&#x53CA;&#x7279;&#x6B8A;&#x7231;&#x597D;&#xFF08;&#x5E74;&#x9F84; &#x804C;&#x4E1A; &#x8EAB;&#x6750; &#x6837;&#x8C8C; &#x5E8A;&#x4E0A;&#x504F;&#x597D;..&#x7B49;&#x7B49;&#xFF09;&#xFF0C;&#x5C0F;&#x59B9;&#x5C06;&#x4F1A;&#x4F9D;&#x7167;&#x60A8;&#x7684;&#x8981;&#x6C42;&#x66FF;&#x60A8;&#x914D;&#x5BF9;&#x6700;&#x5FC3;&#x4EEA;&#x7684;&#x7EA6;&#x70AE;&#x5BF9;&#x8C61;&#xFF0C;&#x6211;&#x4EEC;&#x6709;&#x7EDD;&#x5BF9;&#x81EA;&#x4FE1;&#x4E00;&#x5B9A;&#x53EF;&#x4EE5;&#x7ED9;&#x60A8;&#x914D;&#x5BF9;&#x5230;&#x6EE1;&#x610F;&#x7684;&#x5973;&#x5B69;&#x3002;
+              </p>
+              <h3 class="em">&#x3010;&#x8D28;&#x91CF;&#x4FDD;&#x8BC1;&#x3011;</h3>
+              <p class="info">
+                &#x5728;&#x914D;&#x5BF9;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x4F60;&#x4E0E;&#x7EA6;&#x70AE;&#x5BF9;&#x8C61;&#x5C06;&#x4F1A;&#x524D;&#x5F80;&#x7EA6;&#x5B9A;&#x9152;&#x5E97;&#x89C1;&#x9762;&#xFF0C;&#x7EA6;&#x70AE;&#x5BF9;&#x8C61;&#x4F1A;&#x5728;30&#x5206;&#x949F;&#x5185;&#x5230;&#x8FBE;&#x60A8;&#x6307;&#x5B9A;&#x7684;&#x5730;&#x70B9;&#xFF0C;&#x672C;&#x4F1A;&#x5458;&#x6240;&#x6709;&#x8D44;&#x6E90;&#x90FD;&#x662F;&#x8BB0;&#x8FC7;&#x7CBE;&#x5FC3;&#x6311;&#x9009;&#x3001;&#x5BA1;&#x67E5;&#x8FC7;&#x7684;&#xFF0C;&#x6837;&#x8C8C;&#x548C;&#x6280;&#x672F;&#x80AF;&#x5B9A;&#x80FD;&#x591F;&#x8BA9;&#x60A8;&#x6EE1;&#x610F;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x653E;&#x5FC3;&#x914D;&#x5BF9;&#x7EA6;&#x70AE;&#x3002;
+              </p>
+              
+            </div>
+          </section>
+        </div>
+    
+        <div id="xuemei" class="container-xuemei tabs">
+          <ul>
+            <li>
+              <img src="${cdndomain}/imgs/girls/1.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/2.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/3.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/4.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/5.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/6.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/7.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/8.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/9.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/10.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/11.jpg.123" alt="" srcset="" />
+            </li>
+            <li>
+              <img src="${cdndomain}/imgs/girls/12.jpg.123" alt="" srcset="" />
+            </li>
+          </ul>
+        </div>
+    
+        <div id="buzhou" class="container-buzhou tabs">
+          <section class="ypbz center">
+            <img src="${cdndomain}/imgs/ypbz.png.123" alt="" />
+          </section>
+        </div>
+      `;
+    document.getElementById("app").innerHTML = html;
+  </script>
+  <script>
+    // 动态加载js脚本文件
+    function loadScript(url, callbackFn) {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src = url;
+      script.async = true;
+      script.onload = callbackFn;
+      document.body.appendChild(script);
+    }
+    // 动态加载css文件
+    function loadStyles(url) {
+      var link = document.createElement("link");
+      link.type = "text/css";
+      link.rel = "stylesheet";
+      link.href = url;
+      document.getElementsByTagName("head")[0].appendChild(link);
+    }
+    loadStyles(`${cdndomain}/css/swiper.min.css`);
+    loadScript(`${cdndomain}/js/message.js`);
+    loadScript(`${cdndomain}/js/swiper.min.js`, function () {
+      loadScript(`./js/main.js`);
+    });
+  </script>
+</html>
